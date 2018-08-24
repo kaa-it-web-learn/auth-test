@@ -1,0 +1,23 @@
+{
+  "name": "auth-test",
+  "version": "1.0.0",
+  "description": "Authorization Test App",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrey Kruglov",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "rand-token": "^0.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
